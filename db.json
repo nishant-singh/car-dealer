@@ -1,0 +1,111 @@
+{
+  "merchants": [
+    {
+      "firstname": "Car",
+      "lastname": "24",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/40.jpg",
+      "email": "contact@car24.com",
+      "phone": "7766554433",
+      "hasPremium": false,
+      "id": 1,
+      "bids": [
+        {
+          "id": 1,
+          "carTitle": "Jest",
+          "amount": 1000,
+          "created": "2018-09-10 01:00 PM"
+        },
+        {
+          "id": 2,
+          "carTitle": "Mercedes",
+          "amount": 3500,
+          "created": "2018-09-20 05:00 PM"
+        },
+        {
+          "id": 3,
+          "carTitle": "Porsche",
+          "amount": 4000,
+          "created": "2018-09-28 10:00 AM"
+        }
+      ]
+    },
+    {
+      "firstname": "Ahiravan",
+      "lastname": "Pratap",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/21.jpg",
+      "email": "ahir@hotmail.com",
+      "phone": "+939911223344",
+      "hasPremium": false,
+      "id": 3
+    },
+    {
+      "firstname": "Gesa",
+      "lastname": "Shaw",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/22.jpg",
+      "email": "gesa@outlook.net",
+      "phone": "+829911223344",
+      "hasPremium": true,
+      "id": 5
+    },
+    {
+      "firstname": "Shaelyn",
+      "lastname": "Cooper",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/79.jpg",
+      "email": "shaelyn.cooper@auto.com",
+      "phone": "+918877665511",
+      "hasPremium": true,
+      "id": 6,
+      "bids": [
+        {
+          "id": 1,
+          "carTitle": "Jaguar",
+          "amount": 5000,
+          "created": "2018-09-20 01:00 PM"
+        },
+        {
+          "id": 2,
+          "carTitle": "Ferari",
+          "amount": 6500,
+          "created": "2018-09-29 05:00 PM"
+        },
+        {
+          "id": 3,
+          "carTitle": "Mini-Cooper",
+          "amount": 3000,
+          "created": "2018-09-20 10:00 AM"
+        },
+        {
+          "id": 4,
+          "carTitle": "BMW",
+          "amount": 7000,
+          "created": "2018-10-20 08:00 AM"
+        }
+      ]
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Cregg",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/19.jpg",
+      "email": "cool_creigg@yahoo.com",
+      "hasPremium": true,
+      "id": 7
+    },
+    {
+      "firstname": "Brad",
+      "lastname": "Mickey",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/45.jpg",
+      "email": "brad_mic@gmail.com",
+      "phone": "887766554433",
+      "id": 8
+    },
+    {
+      "firstname": "Linda",
+      "lastname": "Daisy",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/48.jpg",
+      "email": "linda.da@gmail.com",
+      "phone": "+239988553344",
+      "hasPremium": true,
+      "id": 9
+    }
+  ]
+}

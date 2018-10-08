@@ -1,0 +1,50 @@
+.merchant-card{
+    box-shadow: 0px 5px 10px -2px #dad9d9;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    td{
+        background: #fff;
+        border-spacing: 0px;
+        &.image-container{
+            padding: 7px;
+            width: 50px;
+            padding-left: 11px;
+            img {
+                height: 40px;
+                width: 40px;
+                object-fit: cover;
+                vertical-align: middle;
+                border-radius: 2px;
+            }
+        }
+        &.main-text{
+            color: #333;
+        }
+        &.sub-text{
+            color: #777;
+            border-left: 1px solid #eeeeee96;
+            padding-left: 5px;
+            font-size: 14px;
+        }
+        &:first-child{
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px; 
+        }
+        &:last-child{
+            border-top-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+        }
+        &.actions{
+            color: #bbb;
+            width: 80px;
+            i{
+                cursor: pointer;
+            }
+        }
+        &.premium{
+            color: green;
+            width: 45px;
+        }
+    }
+}

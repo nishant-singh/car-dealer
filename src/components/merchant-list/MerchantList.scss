@@ -1,0 +1,16 @@
+.merchant-list{
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+
+  th{
+    text-align: left;
+    color: #999;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  tr{
+    border-radius: 2px;
+  }
+}

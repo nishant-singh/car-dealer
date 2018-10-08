@@ -1,0 +1,15 @@
+.pagination-container{
+    float: right;
+    margin-right: 5%;
+    li{
+        display: inline-block;
+        width: 30px;
+        text-align: center;
+        height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+        font-weight: bold;
+        color: #777;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,39 @@
+.bid-list {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+
+  th {
+    text-align: left;
+    color: #999;
+    font-size: 12px;
+    font-weight: bold;
+
+    &.merchant{
+      color: #666;
+      font-size: 20px;
+    }
+
+    &.home-action{
+      a.btn-home{
+        text-decoration: none;
+        float: right;
+        margin-right: 5%;
+        margin-bottom: 20px;
+        background-color: #2F363A;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+    }
+  }
+  th:first-child{
+    padding-left: 12px;
+  }
+
+  tr {
+    border-radius: 2px;
+  }
+}
